@@ -1,1 +1,7 @@
-# neuromorphic_photonics_article_1
+## Light-stimulated artificial synapse based on nanocrystalline ZnO film
+
+Обработка данных для статье. Статья про характеризацию элемантов нейроморфной фотоники на основе оксидов цинка.   
+Исследованы: STM, LTM, PPF, частотная адаптация.  
+
+neyro_lib.py -- содержит функцию replace(filePath, text = ',', subs = '.', flags=0), которая меняет ',' на '.'  
+neyro_lib_2.py -- содержит функцию on_off_impulse(file), которая принимает файл и создает две колонки с моментом включения (ON) и моментом выключения светодиода (OFF). Каждый этап эксперимента разделен пустойстрокой.  
